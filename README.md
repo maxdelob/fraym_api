@@ -30,11 +30,20 @@ You can test endpoints as following :
 # Useful links for the developement 
 
 
-[Quandl API doc](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation)
-[Express summary](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql)
-[Express routes](https://xpertphp.com/node-js-routes-in-separate-file-using-express/)
-[Express Db integration](https://expressjs.com/en/guide/database-integration.html#postgresql)
-[Heroku deployment](https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s)
+[Quandl API doc](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation).
+
+
+[Express summary](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql).
+
+
+[Express routes](https://xpertphp.com/node-js-routes-in-separate-file-using-express/).
+
+
+[Express Db integration](https://expressjs.com/en/guide/database-integration.html#postgresql).
+
+
+[Heroku deployment](https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s).
+
 
 
 
