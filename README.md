@@ -16,35 +16,26 @@ You can see the data loading logs in data_processing.log.
 
 
 # run locally 
-    
-    Run `npm i`
-
-    Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
-
-    You can test endpoints as following : 
-        `http://localhost:3000/companies`
-        `http://localhost:3000/chart/AAPL`
-        `http://localhost:3000/chart/AAPL/dates`
 
 
+Run `npm i`
 
-# Link useful for the developement 
-    Quandl API doc :
-     `https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation`
+Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
-    Express summary : 
-        `https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/`
+You can test endpoints as following : 
+    [Companies](http://localhost:3000/companies)
+    [Chart data](http://localhost:3000/chart/AAPL)
+    [Chart dates](http://localhost:3000/chart/AAPL/dates)
 
-    Express routes :
-        `https://xpertphp.com/node-js-routes-in-separate-file-using-express/`
-
-    Express Db integration : 
-        `https://expressjs.com/en/guide/database-integration.html#postgresql`
+# Useful links for the developement 
 
 
-    Heroku deployemnt : 
-        `https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s`
-    
+[Quandl API doc](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation)
+[Express summary](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql)
+[Express routes](https://xpertphp.com/node-js-routes-in-separate-file-using-express/)
+[Express Db integration](https://expressjs.com/en/guide/database-integration.html#postgresql)
+[Heroku deployment](https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s)
+
 
 
 
