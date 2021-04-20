@@ -1,4 +1,4 @@
-# fraym_api
+# API FRAYM 
 
 This repository is where I store my Express.js project and a folder with my Python file I used to load the database.
 
@@ -6,7 +6,7 @@ I am familiar with Express.js. I also use it because it's fast, compacted and pe
 
 The API is connected to a PostgreSQL database hosted by Heroku. You can find the connexion information from the config folder.
 
-# fraym data mining
+# Loading Quandl data to the database
 
 The DATA_MINING project contains the Python file used to load data from the Quandl API to the Heroku Database. 
 
