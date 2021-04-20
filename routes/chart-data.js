@@ -3,7 +3,6 @@ const router = express.Router({ mergeParams: true });
 const connString = require('../config').dbInfo;
 const { Client } = require('pg');
 
-// 'SELECT $1 AS value', 123
 router.get('/', function(req, res, next) {  
     const query = "SELECT * from prices where ticker = '" + req.params.id + "'" 
     const client = new Client({ connectionString: connString, ssl: { rejectUnauthorized: false } });
