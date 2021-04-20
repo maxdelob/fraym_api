@@ -23,26 +23,30 @@ Run `npm i`
 Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
 You can test endpoints as following : 
-    [Companies](http://localhost:3000/companies)
-    [Chart data](http://localhost:3000/chart/AAPL)
-    [Chart dates](http://localhost:3000/chart/AAPL/dates)
+
+[Companies](http://localhost:3000/companies)
+
+[Chart data](http://localhost:3000/chart/AAPL)
+
+[Chart dates](http://localhost:3000/chart/AAPL/dates)
+
 
 # Useful links for the developement 
 
 
-[Quandl API doc](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation).
+[Quandl API doc](https://www.quandl.com/data/EOD-End-of-Day-US-Stock-Prices/documentation)
 
 
-[Express summary](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql).
+[Express summary](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql)
 
 
-[Express routes](https://xpertphp.com/node-js-routes-in-separate-file-using-express/).
+[Express routes](https://xpertphp.com/node-js-routes-in-separate-file-using-express/)
 
 
-[Express Db integration](https://expressjs.com/en/guide/database-integration.html#postgresql).
+[Express Db integration](https://expressjs.com/en/guide/database-integration.html#postgresql)
 
 
-[Heroku deployment](https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s).
+[Heroku deployment](https://dzone.com/articles/deploy-your-node-express-app-on-heroku-in-8-easy-s)
 
 
 
