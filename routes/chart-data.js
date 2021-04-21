@@ -3,7 +3,7 @@ const router = express.Router({ mergeParams: true });
 const connString = require('../config').dbInfo;
 const { Client } = require('pg');
 
-router.get('/', function(req, res, next) {  
+router.get('/', function(req, res) {
     const query = "SELECT * from prices where ticker = '" + req.params.id + "'" 
     const client = new Client({ connectionString: connString, ssl: { rejectUnauthorized: false } });
     client.connect();
@@ -28,10 +28,10 @@ const parseData = (data) => {
 }
 
 const parseDate = (date) => {
-    return date.toLocaleString().split(' ')[0].replace('-', '/')
+    return date.toLocaleString().split(' ')[0].replace(/-/g, '/')
 } 
 const parseName = (data) => {
-    return data.date + ' - ' + data.ticker
+    return data.date
 }
 
 module.exports = router;
