@@ -26,7 +26,9 @@ You can test endpoints as following :
 
 [Companies](http://localhost:3000/companies)
 
-[Chart data](http://localhost:3000/chart/AAPL)
+[Company](http://localhost:3000/companies/AAPL)
+
+[Chart data](https://fraymapi.herokuapp.com/chart/BA?min=2013-09-03T00:00:00.000Z&max=2017-12-28T00:00:00.000Z)
 
 [Chart dates](http://localhost:3000/chart/AAPL/dates)
 
