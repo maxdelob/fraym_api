@@ -9,6 +9,7 @@ router.get('/', function(req, res) {
     client.query('SELECT * from companies', (err, results) => {
         if(err) throw (err);
         res.json(results.rows);
+        client.end();
     })
 });
 module.exports = router;
