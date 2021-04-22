@@ -24,14 +24,7 @@ router.get('/dates', function(req, res){
 })
 
 const parseData = (data) => {
-    return data.map(e => { return {name: parseName(e), value : [parseDate(e.date), e.value_close]} })
-}
-
-const parseDate = (date) => {
-    return date.toLocaleString().split(' ')[0].replace(/-/g, '/')
-} 
-const parseName = (data) => {
-    return data.date
+    return data.map(e => { return {name: e.date, value : e.value_close} })
 }
 
 module.exports = router;
